@@ -12,6 +12,15 @@ pipeline{
 		      }
 		
                }
+		
+		  stage('Quality Gate Statuc Check one'){
+
+		      steps{
+			      echo "Hello"
+		      }
+		
+               }
+	       
 	       
 	}       
 	       
