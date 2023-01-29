@@ -7,6 +7,52 @@
   <version>1.0-SNAPSHOT</version>
   <name>WebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+    <build>
+                  <plugins>
+         <plugin>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.0.0</version>
+</plugin>
+                  </plugins>
+         </build>
+
+ <properties>
+          <sonar.host.url>http://18.117.166.47:9000/</sonar.host.url>
+          <!--<sonar.login>squ_48dc500fa8c6bc1826ae64109a1614df3da3617a</sonar.login>-->
+          <sonar.login>admin</sonar.login>
+          <sonar.password>sonarqube</sonar.password>
+
+                    <maven.compiler.source>6</maven.compiler.source>
+                    <maven.compiler.target>1.6</maven.compiler.target>
+            <spring.version>4.1.4.RELEASE</spring.version>
+                <junit.version>4.11</junit.version>
+                <log4j.version>1.2.17</log4j.version>
+                  <!--<sonar.host.url>http://localhost:9000/</sonar.host.url>-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+         <!--Sonar The destination file for the code coverage report has to be set to the same value
+         in the parent pom and in each module pom. Then JaCoCo will add up information in
+        the same report, so that, it will give the cross-module code coverage.
+        <sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itRe     portPath>
+        <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>-->
+</properties>
+
+
+<distributionManagement>
+        <repository>
+                <id>new</id>
+                <name>Mithun</name>
+                <url>http://18.216.136.204:8081/repository/third/</url>
+
+        </repository>
+
+         <snapshotRepository>
+                <id>new</id>
+                <name>mithun</name>
+                <url>http://18.216.136.204:8081/repository/third/</url>
+        </snapshotRepository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,7 +61,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
+ <!-- <build>
     <finalName>WebApp</finalName>
-  </build>
+  </build>-->
 </project>
