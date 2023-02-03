@@ -17,7 +17,7 @@
          </build>
 
  <properties>
-          <sonar.host.url>http://3.141.38.108:9000/</sonar.host.url>
+          <sonar.host.url>http://3.138.114.69:9000/</sonar.host.url>
           <!--<sonar.login>squ_48dc500fa8c6bc1826ae64109a1614df3da3617a</sonar.login>-->
           <sonar.login>admin</sonar.login>
           <sonar.password>sonarqube</sonar.password>
@@ -43,7 +43,7 @@
         <repository>
                 <id>new</id>
                 <name>Mithun</name>
-                <url>http://3.144.251.50:8081/repository/third/</url>
+                <url>http://18.117.165.21:8081/repository/third/</url>
 
         </repository>
 
