@@ -43,14 +43,14 @@
         <repository>
                 <id>new</id>
                 <name>Mithun</name>
-                <url>http://3.145.101.209:8081/repository/third/</url>
+                <url>http://3.145.101.209:8081/repository/firstRepo/</url>
 
         </repository>
 
          <snapshotRepository>
                 <id>new</id>
                 <name>mithun</name>
-                <url>http://3.145.101.209:8081/repository/third/</url>
+                <urlhttp://3.145.101.209:8081/repository/firstRepo//</url>
         </snapshotRepository>
 </distributionManagement>
   <dependencies>
