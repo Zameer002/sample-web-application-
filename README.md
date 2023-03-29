@@ -13,7 +13,7 @@ and build the instructions .
 
 # Deploy instruction
 
-#Hello World
+#Hello
 
 Deploy ```target/WebApp.war``` on Tomcat properly for better experience.
 
