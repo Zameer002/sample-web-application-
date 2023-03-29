@@ -50,7 +50,7 @@
          <snapshotRepository>
                 <id>new</id>
                 <name>mithun</name>
-                <urlhttp://3.145.101.209:8081/repository/firstRepo/</url>
+                <url>http://3.145.101.209:8081/repository/firstRepo/</url>
         </snapshotRepository>
 </distributionManagement>
   <dependencies>
